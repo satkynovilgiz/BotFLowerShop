@@ -42,7 +42,7 @@ async def start(update, context: ContextTypes.DEFAULT_TYPE):
         [InlineKeyboardButton("Показать товары", callback_data="show_0")]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
-    await update.message.reply_text("HELLO welcome to our flower shop, thank you for chose we :) 🌸", reply_markup=reply_markup)
+    await update.message.reply_text("HELLO welcome to our flower shop 🌸", reply_markup=reply_markup)
 
 # Функция показа товара по индексу
 async def send_product(update, context, product_index):
