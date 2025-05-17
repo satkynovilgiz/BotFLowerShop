@@ -4,6 +4,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO)
 
+# //clean code
 PRODUCTS = [
     {
         "name": "🌸 Цветок 1",
